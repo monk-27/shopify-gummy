@@ -1,9 +1,10 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./container2.css";
 
 const Container2 = () => {
+ 
   return (
     <>
       <div className="card-containers">

@@ -14,16 +14,17 @@ const App=()=> {
     
    
     
-      <BrowserRouter>
-      
         <Nav/>
+        <Home/>
+      {/* <BrowserRouter> */}
+      
        
-      <Routes>
+      {/* <Routes>
       <Route path="/" element={<Home />} />
-      </Routes>
+      </Routes> */}
       
       
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
   
     </>
   

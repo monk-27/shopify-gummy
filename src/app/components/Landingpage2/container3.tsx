@@ -1,11 +1,13 @@
-import React from "react";
+
 import "./container2.css";
 import "./container3.css";
+import React, { useEffect, useState } from "react";
 
 
 
 
 const Container3 = ({ image, title, text }:any) => {
+  
   return (
     <div>
       <div className="container3">
